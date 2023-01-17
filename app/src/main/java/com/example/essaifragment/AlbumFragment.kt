@@ -8,6 +8,12 @@ import androidx.fragment.app.Fragment
 
 class AlbumFragment : Fragment() {
 
+    interface OnButtonClickListener {
+        public void onButtonClickListener {
+            public void onButtonClickListener(View view)
+        }
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
