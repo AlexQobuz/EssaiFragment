@@ -6,6 +6,7 @@ import android.view.View
 
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
+    // Je récupère le package fragmentManager
     private val fragmentManager = supportFragmentManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
